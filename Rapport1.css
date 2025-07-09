@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    margin-left: 250px;
+   text-align: center;
+    color: #333;
+    margin-top: 70px; 
+    width:39%;
+    padding: 20px;
+    border: 1px solid #f1f1f1;
+    background:#fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  form {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 50px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button[type="submit"] {
+    background-color: #4CAF50; /* Couleur verte */
+    color: white;
+  }
+  
+  button[type="reset"] {
+    background-color: #f44336; /* Couleur rouge */
+    color: white;
+  }
+  
+  .button-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    margin: 0 10px;
+  }
+  
+
+  @media print {
+    body * {
+        visibility: hidden;
+    }
+    #table-print, #table-print * {
+        visibility: visible;
+    }
+    #table-print {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    button {
+        display:none;
+  }
+  }

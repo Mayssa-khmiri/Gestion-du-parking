@@ -1,0 +1,117 @@
+.menu {
+
+   margin-top: -9px;
+   margin-left: -10px;
+    width: 410px;
+    background: #0a2558;
+    transition: all 0.5s ease;
+  height: 700px;}
+
+
+  .sonede{
+ margin-left: -15px;
+    color: #f5f5f5;
+font-size: 35px;
+  }
+  .barre_name{
+font-size: 17px;
+  }
+  .menu ul li a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+  }
+  .menu ul li a.active {
+    background: #081d45;
+  }
+  .menu ul a:hover {
+    background: chartreuse;
+  }
+  .logo{
+    font-size: 50px;
+    color: #f5f5f5;
+   margin-left: 10px;
+  }
+  .logo i{
+    font-size: 31px;
+  }
+  li{
+    margin-left: -25px;
+    display: flex;
+    list-style: none;
+    height: 40px;
+    padding:12px;
+  }
+
+a{
+    margin-left: -10px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+i {min-width: 65px;
+text-align: center;
+font-size: 20px;
+color: #fff;
+}
+
+iframe {
+    display: block; /* Assure que l'iframe occupe tout l'espace disponible */
+    width: 100%; /* Largeur de l'iframe */
+    border: none; /* Supprime la bordure de l'iframe */
+    
+  }
+  .home-section {
+    margin-top: -740px;
+    margin-left: 60px;
+    position: relative;
+    background: #f5f5f5;
+    min-height: 80vh;
+    width: calc(92.1% - 240px);
+    height:740px ;
+    left: 310px;
+    transition: all 0.5s ease;
+
+  }
+  .menu.active ~ .home-section {
+    width: calc(100% - 50px);
+    left: 60px;
+  }
+ /* Responsive Media Query */
+@media (max-width: 1240px) {
+  .menu {
+    width: 60px;
+  }
+  .menu.active {
+    width: 220px;
+  }
+  .home-section {
+    width: calc(95% - 60px);
+    left: 60px;
+  }
+  .menu.active ~ .home-section {
+    /* width: calc(100% - 220px); */
+    overflow: hidden;
+    left: 220px;
+  }
+}
+@media (max-width: 500px) {
+  .menu {
+    width: 100px;
+  }
+  .menu.active {
+    width: 60px;
+  }
+  .home-section {
+    width: 100%;
+    left: 0;
+  }
+  .menu.active ~ .home-section {
+    left: 60px;
+    width: calc(100% - 50px);
+  }}

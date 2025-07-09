@@ -1,0 +1,81 @@
+body{
+    background:white;
+
+}
+form{
+    background:darkgrey;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgb(0,0,0,.1) ;
+    padding: 20px;
+    width: 560px;
+ padding-top: 50px;
+margin-left: 250px;
+
+}
+h2{
+    font-size: 40px;
+    margin-left: -110px;
+    padding: 10px;
+    color: black;
+    text-align: center;
+    
+}
+.row{
+    margin-left: 14px;
+    font-size: 22px;
+}
+.group{
+    display: flex;
+    align-items: center;
+  padding: 15px;
+    flex-flow: column;
+}
+
+  
+.label {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.input {
+    margin-top: 15px;
+}
+
+input[
+    type="text"] {
+    width: 90%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.class {
+    display: flex;
+   margin-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.butt2{
+    margin-top: -73px;
+    text-decoration: none;
+    padding: 10px 20px;
+   background-color:black;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 250px;
+}
+.butt1{
+    margin-left: 100px;
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color:darkblue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
